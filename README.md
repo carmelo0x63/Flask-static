@@ -22,6 +22,21 @@ $ source bin/activate
 ```
 **NOTE**: the `--host=0.0.0.0` part is optional and is only meant to make the web server accessible from external hosts
 
-#### Eaxit with
+#### Exit with
 CTRL+C to stop the server, `deactivate` to quit the virtual environment
+
+____
+
+#### Docker
+```
+$ docker build -t <repo>/flask:1.0 .
+
+$ docker run -d --name flask -p 5000:5000 <repo>/flask:1.0
+```
+
+____
+
+#### Resources
+- [Getting Started With Flask, A Python Microframework](https://scotch.io/tutorials/getting-started-with-flask-a-python-microframework)
+- [Dockerize a Flask App](https://dev.to/riverfount/dockerize-a-flask-app-17ag)
 
