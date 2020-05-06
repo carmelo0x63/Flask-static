@@ -37,6 +37,7 @@ $ docker run -d --name flask -p 5000:5000 <repo>/flask:1.0
 ____
 
 #### Resources
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 - [Getting Started With Flask, A Python Microframework](https://scotch.io/tutorials/getting-started-with-flask-a-python-microframework)
 - [Dockerize a Flask App](https://dev.to/riverfount/dockerize-a-flask-app-17ag)
 
