@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-# hello_world.py
+# Run as:
+# $ export FLASK_APP=hello_world.py
+# $ flask run
 
 from flask import Flask
 app = Flask(__name__)
