@@ -29,9 +29,9 @@ ____
 
 #### Docker
 ```
-$ docker build -t <repo>/flask:1.0 .
+$ docker build -t <repo>/flask-static:1.0 .
 
-$ docker run -d --name flask -p 5000:5000 <repo>/flask:1.0
+$ docker run -d --name flask-static -p 5000:5000 <repo>/flask-static:1.0
 ```
 
 ____
