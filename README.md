@@ -2,16 +2,16 @@
 Flask micro-site
 
 ### Setup
-Create a [virtual environment for Python](https://docs.python.org/3/library/venv.html) in the current directory
+1. Create a [virtual environment for Python](https://docs.python.org/3/library/venv.html) in the current directory
 ```
 $ python3 -m venv .
 
-$ pip3 install --upgrade pip
+$ source bin/activate
 ```
 
-Activate the virtual environment and install any dependencies
+2. Activate the virtual environment and install any dependencies
 ```
-$ source bin/activate
+(Flask-static) $ python3 -m pip install [--upgrade] pip setuptools wheel
 
 (Flask-static) $ pip3 install -r requirements.txt
 ```
